@@ -61,6 +61,9 @@ body {
         font-weight: 600;
         margin: auto;
       }
+      a:hover {
+        text-decoration: none;
+      }
     }
     .button {
       width: 80%;
@@ -76,12 +79,19 @@ body {
         text-decoration: none;
       }
     }
+    .button:hover {
+      filter: hue-rotate(15deg);
+      filter: opacity(0.9);
+    }
     .cancel {
       a,
       :active {
         text-decoration: none;
         font-weight: 700;
         color: $desaturatedblue;
+      }
+      :hover {
+        color: black;
       }
     }
     .attribution {

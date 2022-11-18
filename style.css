@@ -59,6 +59,9 @@ body .card .plan a {
   font-weight: 600;
   margin: auto;
 }
+body .card .plan a:hover {
+  text-decoration: none;
+}
 body .card .button {
   width: 80%;
   height: 40px;
@@ -74,11 +77,20 @@ body .card .button a {
   font-weight: 900;
   text-decoration: none;
 }
+body .card .button:hover {
+  -webkit-filter: hue-rotate(15deg);
+          filter: hue-rotate(15deg);
+  -webkit-filter: opacity(0.9);
+          filter: opacity(0.9);
+}
 body .card .cancel a,
 body .card .cancel :active {
   text-decoration: none;
   font-weight: 700;
   color: hsl(224deg, 23%, 55%);
+}
+body .card .cancel :hover {
+  color: black;
 }
 body .card .attribution {
   margin-top: 20px;
