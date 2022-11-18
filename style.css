@@ -13,6 +13,7 @@ body {
 body .card {
   max-width: 450px;
   margin: 40px auto;
+  padding-bottom: 40px;
   border-radius: 20px;
   -webkit-box-shadow: 0px 10px 20px gray;
           box-shadow: 0px 10px 20px gray;
@@ -65,6 +66,7 @@ body .card .button {
   width: 80%;
   height: 50px;
   margin: 20px auto;
+  margin-bottom: 30px;
   border-radius: 10px;
   border-width: 1px;
   background-color: hsl(245deg, 75%, 52%);
